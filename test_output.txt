@@ -1,0 +1,172 @@
+ streamlit run test_rag.py [ARGUMENTS]
+2025-07-19 21:53:58.866 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:53:58.867 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:53:58.867 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:53:59.376 Thread 'Thread-1': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:53:59.377 Thread 'Thread-1': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:53:59.377 Thread 'Thread-1': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.472 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.646 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.662 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.665 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.837 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.843 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:05.846 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.064 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.064 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.065 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Initializing test environment...
+Components initialized successfully!
+
+================================================================================
+TESTING DOCUMENT LOADING
+================================================================================
+2025-07-19 21:54:06.066 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.066 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.066 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.067 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.172 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.172 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.172 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.303 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.304 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.304 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.360 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.361 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.361 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.391 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.391 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.391 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.394 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.394 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.394 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.573 Thread 'Thread-4': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.573 Thread 'Thread-4': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:06.574 Thread 'Thread-4': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.181 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.181 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.182 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.182 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.182 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2025-07-19 21:54:13.183 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+Default document loading: ✅ SUCCESS
+Documents in collection: 73
+
+================================================================================
+TESTING TEXT PROCESSING FUNCTIONS
+================================================================================
+Original: '  This is   a test   text with
+
+extra   whitespace!@#$%  '
+Cleaned: 'This is a test text with extra whitespace!'
+Text cleaning: ✅ PASS
+
+Chunking test:
+Original text length: 180 words
+Number of chunks: 5
+Text chunking: ✅ PASS
+
+================================================================================
+TEST 1: What are the core features of AI agents and how do they achieve autonomy?
+================================================================================
+
+RESPONSE (4264 chars, 8.89s):
+Based on the provided documents, here are the core features of AI agents and how they achieve autonomy:
+
+**Core Features of AI Agents:**
+
+*   **Reasoning:** AI agents use logic and available information to draw conclusions, make inferences, and solve problems ("Reasoning This core cognitive process involves using logic and available information to draw conclusions, make inferences, and solve problems.").
+*   **Acting:** They have the ability to take action or perform tasks based on decisions, pl...
+
+DOCUMENTS FOUND: True
+ROUTE TAKEN: end
+EXPECTED KEYWORDS: autonomous, goal-oriented, reasoning, planning, memory
+FOUND KEYWORDS: reasoning, planning, memory
+RELEVANCE SCORE: 60.0%
+TEST RESULT: ✅ PASS
+
+================================================================================
+TEST 2: Explain chain-of-thought prompting and few-shot learning techniques
+================================================================================
+
+RESPONSE (326 chars, 2.82s):
+Chain-of-thought prompting and few-shot learning are prompting techniques used in conjunction with large language models (LLMs).
+
+*   **Chain-of-Thought Prompting:** This technique involves step-by-step reasoning. (Document 1)
+*   **Few-shot Learning:** This involves prompt design patterns with diverse examples. (Document 1)
+
+DOCUMENTS FOUND: True
+ROUTE TAKEN: end
+EXPECTED KEYWORDS: chain-of-thought, few-shot, prompting, reasoning, examples
+FOUND KEYWORDS: chain-of-thought, few-shot, prompting, reasoning, examples
+RELEVANCE SCORE: 100.0%
+TEST RESULT: ✅ PASS
+
+================================================================================
+TEST 3: How does HNSW indexing work in vector databases?
+================================================================================
+
+RESPONSE (289 chars, 2.94s):
+Document 1 mentions that Hierarchical Navigable Small World (HNSW) graphs are one of the most important techniques for similarity search on high-dimensional vectors in vector databases. It also notes that HNSW-based implementations have been among the best performers in recent benchmarks.
+
+DOCUMENTS FOUND: True
+ROUTE TAKEN: end
+EXPECTED KEYWORDS: HNSW, indexing, vector, similarity, search
+FOUND KEYWORDS: HNSW, vector, similarity, search
+RELEVANCE SCORE: 80.0%
+TEST RESULT: ✅ PASS
+
+================================================================================
+TEST 4: What are the best practices for RAG implementation?
+================================================================================
+
+RESPONSE (1553 chars, 2.84s):
+Based on the provided documents, here are some best practices for RAG implementation:
+
+*   **Augment the model's external knowledge base with updated information:** Instead of retraining the model, update the external knowledge base with new information (Document 1, Document 3).
+*   **Convert data into LLM embeddings:** Transform the data into numerical representations (embeddings) and store them in a vector database (Document 3).
+*   **Use a document retriever:** Use a document retriever to sel...
+
+DOCUMENTS FOUND: True
+ROUTE TAKEN: end
+EXPECTED KEYWORDS: RAG, retrieval, generation, implementation, best practices
+FOUND KEYWORDS: RAG, retrieval, implementation, best practices
+RELEVANCE SCORE: 80.0%
+TEST RESULT: ✅ PASS
+
+================================================================================
+TEST 5: Describe transformer architecture and attention mechanisms
+================================================================================
+
+RESPONSE (2959 chars, 6.52s):
+The transformer architecture is a neural network architecture excelling at processing sequential data. It was first described in the 2017 paper "Attention is All You Need" (Document 5). Transformer models are now used in NLP, computer vision, speech recognition, and time series forecasting (Document 5).
+
+**Key aspects of the transformer architecture:**
+
+*   **Self-Attention Mechanism:** The central feature, enabling the model to detect relationships between parts of an input sequence (Document 5...
+
+DOCUMENTS FOUND: True
+ROUTE TAKEN: end
+EXPECTED KEYWORDS: transformer, attention, architecture, neural, mechanism
+FOUND KEYWORDS: transformer, attention, architecture, neural, mechanism
+RELEVANCE SCORE: 100.0%
+TEST RESULT: ✅ PASS
+
+================================================================================
+TEST SUMMARY REPORT
+================================================================================
+Total tests: 5
+Tests passed: 5
+Pass rate: 100.0%
+Average relevance score: 84.0%
+Average response length: 1878 characters
+Average processing time: 4.80 seconds
+
+ROUTE DISTRIBUTION:
+  end: 5 times
+
+================================================================================
+OVERALL TEST SUMMARY
+================================================================================
+🎉 ALL TESTS PASSED!
+Test execution completed.
